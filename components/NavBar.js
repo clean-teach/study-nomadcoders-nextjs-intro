@@ -15,14 +15,11 @@ export default function NavBar() {
                 About
             </Link>
             <style jsx>{`
-                nav {
-                    background-color: tomato;
-                }
                 a {
                     text-decoration: none;
                 }
                 .active {
-                    color: yellow;
+                    color: tomato;
                 }
             `}</style>
             {/* <Link href='/' legacyBehavior>
